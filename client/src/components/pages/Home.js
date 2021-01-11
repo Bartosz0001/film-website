@@ -1,7 +1,13 @@
 import React from 'react';
 
+import Promo from '../features/Promo';
+import Tops from '../features/Tops';
+
 const Home = () => (
-    <div></div>
+    <div>
+        <Promo />
+        <Tops />
+    </div>
 );
 
 export default Home;
